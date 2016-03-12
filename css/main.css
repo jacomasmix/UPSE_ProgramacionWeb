@@ -8,10 +8,23 @@ nav a{
 	background: 
 
 }
+header{
+
+	background: #4C2AB3;
+	border-color: #B5611D;
+}
+
+h1, h2 {
+		color: #fff;
+
+}
+
+
+
 #logo{
-	text-align:center;
+	text-align: center;
 	margin: 0;
-	
+
 }
 
 
