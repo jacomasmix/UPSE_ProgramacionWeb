@@ -1,25 +1,33 @@
-
-
-a {
-	text-decoration: none; 
+/*********
+GENERAL
+*********/
+#wrapper {
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0 5%;
+	background: blue;
 }
 
-nav a{
-	background: 
-
+#wrapperm {
+	max-width: 700px;
+	margin: 0 auto;
+	padding: 0 5%;
+	background: blue;
 }
+/*********
+HEADING
+*********/
 header{
 
-	background: #4C2AB3;
-	border-color: #B5611D;
+	background: #28E800;
+	border-color: #378B2E;
 }
 
-h1, h2 {
-		color: #fff;
-
-}
-
-
+header{ float: left;
+	margin: 0 0 30px 0;
+	padding: 5px 0 0 0;
+	width: 100%;
+	}
 
 #logo{
 	text-align: center;
@@ -27,11 +35,99 @@ h1, h2 {
 
 }
 
+h1, h2 {
+		color: #fff;
 
-#wrapper {
-	max-width: 940px;
-	margin: 0 auto;
-	padding: 0 5%;
-	background: blue;
+}
 
+h1 {
+		font-family: 'Candal', sans-serif;
+		margin: 15px 0 ;
+		font-size: 1.75em ;
+		font-weight: normal ;
+		line-height: 0,8em ;
+}
+/*********
+NAVIGATION
+*********/
+a {
+	text-decoration: none; 
+}
+
+nav a{
+	background:0; 
+
+}
+
+nav a:hover { 
+	color: #32673f;
+
+}
+nav a.selected {
+      color: #ffffff;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0 10px;
+    padding: 0;
+}
+
+nav li{
+	display: inline-block;
+	}
+nav a { 
+	font-weight: 800;
+	padding: 15px 10px;
+	}
+/*********
+FOOTER
+*********/
+
+footer {
+	font-size: 0,75em;
+	text-align: center;
+	clear: both;
+	padding-top: 50px;
+    color: #000000;
+}
+
+.social-icon { width: 30px;
+		height: 30px;
+		margin: 0 5px;
+    	      }
+
+/*********
+GENERAL
+*********/
+
+img {
+      ^max-width: 100% ;
+}
+#galeria {
+      margin: 0; 
+      padding: 0;
+      list-style: none;
+}
+#galeria li { float:left;
+      width: 45;
+      margin: 2,5%; 
+      background-color: #f5f5f5; 
+      color: #bdc3c7;
+}
+#galeria li a p { 
+      margin: 0;
+      padding: 5%; 
+      font-size: 0.75em;
+      color: #bdc3c7;
+      }
+
+/*********
+Clase de la foto de la pagina about.html
+*********/
+.profile-photo { 
+	display: block;
+	max-width: 800px;
+	margin: o auto 30px;
+	border-radius:100%;
 }

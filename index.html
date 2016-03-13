@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>UPSE - CURSO DE PROGRAMACION WEB</title>
+		<link href='https://fonts.googleapis.com/css?family=Candal' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/main.css">
 	</head>
@@ -11,11 +12,11 @@
 
 		<style type="text/css">
 		footer{
-		   color: green;
-		   background-color: red;
+		   color: #FFFFFF;
+		   background-color: #378B2E;
 		   	}
 
-		   	nav a{
+		 nav a{
 		   background-color: purple;
 		   color: white;
 		   	}
@@ -33,42 +34,54 @@
 		<meta name="author" content="MARCO SUAREZ">
 	
 	<body>
-		<header>
+	<header>
 			<a href="index.html" id="logo">
+				<li>
+				<img src="img/encabezado.jpg" alt="encabezado">			
+				</li>
 				<h1> CENTRO DE SERVICIOS INFORMÁTICOS </h1>
 				<h2> "COMPU TECHNOLOGY" </h2>
 			</a>
-		</header>
+	</header>
+	<div id="wrapper">
 	<header>
 		<nav>
 			<ul>
-				<li><a href="index.html">Galerias</a></li>
-				<li><a href="about.html">Acerca</a></li>
-				<li><a href="contact.html">Contactos</a></li>
-		
+				<li><a href="index.html" class="selected"> Inicio </a> </li>
+				<li><a href="productos.html"> Productos </a> </li>
+				<li><a href="centerhome.html"> Center Home </a> </li>
+				<li><a href="promociones.html"> Promociones </a> </li>
+				<li><a href="eventos.html"> Eventos </a> </li>
+				<li><a href="about.html"> Acerca </a> </li>
+				<li><a href="contact.html"> Contactos </a>	</li>
 			</ul>
 		</nav>
 	</header>
-	<div id="wrapper">
-		<section>
-			<p>LA GALERIA IRA AQUI</p>
-			<ul>
-				<li>
-					<img src="img/1.jpg" alt="IMAGEN 1">
-				</li>
-			</ul>
-			<ul>
-				<li>
-					<img src="img/2.jpg" alt="IMAGEN 2">
-				</li>
-			</ul>
+	</div>
+	<div id="wrapperm">
+		<section> 
+				<p>LA GALERIA IRA AQUI</p>
+				<ul>
+					<li>
+						<img src="img/1.jpg" alt="IMAGEN 1">   <img src="img/2.jpg" alt="IMAGEN 2">
+					</li>
+					<li>
+						<p>PRECIO COMBO ESTUDIANTES PRECIO COMBO PROFESIONALES</p>		
+					</li>	
+				</ul>
 		</section>
 		<footer>
 			<a href="https://www.facebook.com">
-			<img src="img/f.jpg" alt="facebook">
+			<img src="img/f.jpg" alt="facebook" class="social-icon">
 			</a>
 			<a href="https://www.twitter.com">
-			<img src="img/t.jpg" alt="twitter">
+			<img src="img/t.jpg" alt="twitter" class="social-icon">
+			</a>
+			<a href="https://www.instagram.com">
+			<img src="img/i.jpg" alt="instagram"class="social-icon">
+			</a>
+			<a href="https://www.youtobe.com">
+			<img src="img/y.jpg" alt="youtobe"class="social-icon">
 			</a>
 			<p>&copy;2016 Marco Suarez</p>
 		</footer>
