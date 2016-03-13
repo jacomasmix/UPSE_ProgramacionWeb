@@ -5,21 +5,21 @@ GENERAL
 	max-width: 940px;
 	margin: 0 auto;
 	padding: 0 5%;
-	background: blue;
+	background: #ffffff;
 }
 
 #wrapperm {
 	max-width: 700px;
 	margin: 0 auto;
 	padding: 0 5%;
-	background: blue;
+	background: #28E800;
 }
 /*********
 HEADING
 *********/
 header{
 
-	background: #28E800;
+	background: #ffffff;
 	border-color: #378B2E;
 }
 
@@ -64,7 +64,7 @@ nav a:hover {
 
 }
 nav a.selected {
-      color: #ffffff;
+      color: #000000;
 }
 
 nav ul {
@@ -128,6 +128,36 @@ Clase de la foto de la pagina about.html
 .profile-photo { 
 	display: block;
 	max-width: 800px;
-	margin: o auto 30px;
+	margin: 0 auto 30px;
 	border-radius:100%;
+}
+.profile-photo2 { 
+	display: block;
+	max-width: 900px;
+	margin: 0 auto 30px;
+}
+.contact-info {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		font-size: 0.9em;
+}
+
+.contact-info a {
+		/*display: block;*/
+		min-height: 20px;
+		background-repeat: no-repeat;
+		background-size: 20px 20px;
+		padding: 0 0 0 30px;
+		margin: 0 0 10px;
+}
+
+.contact-info li.phone a{
+	background-image: url('../img/phone.jpg');
+}
+.contact-info li.mail a{
+	background-image: url('../img/mail.jpg');
+}
+.contact-info li.twitter a{
+	background-image: url('../img/twitter.jpg');
 }
