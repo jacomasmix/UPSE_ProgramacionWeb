@@ -5,14 +5,23 @@ GENERAL
 	max-width: 940px;
 	margin: 0 auto;
 	padding: 0 5%;
-	background: #ffffff;
+	background: #FFFF00;
 }
 
-#wrapperm {
-	max-width: 700px;
+#wrapper1 {
+	max-width: 940px;
 	margin: 0 auto;
 	padding: 0 5%;
-	background: #28E800;
+	background: #378B2E;
+}
+/*********
+Color de Fondo Pagina y centrar
+*********/
+#wrapper2 {
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0 5%;
+	background: #FFFF00;
 }
 /*********
 HEADING
@@ -153,11 +162,11 @@ Clase de la foto de la pagina about.html
 }
 
 .contact-info li.phone a{
-	background-image: url('../img/phone.jpg');
+	background-image: url('../img/phone.png');
 }
 .contact-info li.mail a{
-	background-image: url('../img/mail.jpg');
+	background-image: url('../img/mail.png');
 }
 .contact-info li.twitter a{
-	background-image: url('../img/twitter.jpg');
+	background-image: url('../img/twitter.png');
 }
